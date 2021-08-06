@@ -40,7 +40,7 @@
                                 <form action="/logout" method="POST">
                                     @csrf
                                     <a href="/logout" class="nav-link"
-                                        onclick="event.preventDefault()
+                                        onclick="event.preventDefault();
                                          this.closest('form').submit();">Sair</a>
                                 </form>
                             </li>
